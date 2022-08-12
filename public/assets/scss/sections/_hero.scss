@@ -117,3 +117,17 @@
         }
     }
 }
+
+@media (max-width: 600px){
+    .section {
+        background-image: url(/assets/images/hero/mobile-me.png) !important;
+
+    }
+}
+
+@media (max-width: 400px){
+    .section {
+        background-image: none !important;
+
+    }
+}
