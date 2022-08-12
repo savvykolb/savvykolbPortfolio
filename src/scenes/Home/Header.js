@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import { useRouteMatch, NavLink, Link } from "react-router-dom";
+import { useRouteMatch, NavLink } from "react-router-dom";
 import { FaTwitter, FaGithub, FaInstagram } from "react-icons/fa";
-// Components
-import DemoOptions from "../../components/common/DemoOptions";
 
 const links = [
     {
@@ -52,9 +50,9 @@ function Header() {
     return (
         <>
             <header className="app-header app-header-1">
-                <div className="header-logo">
-                    <Link to={`url`.replace(/([^:])(\/\/+)/g, "$1/")}>Miro.</Link>
-                </div>
+                {/* <div className="header-logo">
+                    <Link to={`url`.replace(/([^:])(\/\/+)/g, "$1/")}>savvykolb.</Link>
+                </div> */}
                 <button className="button button-menu" onClick={(e) => handleClick(e)}>
                     <span></span>
                 </button>
@@ -99,9 +97,9 @@ function Header() {
             </header>
             <div className={`app-sidenav ${displaySidenav && "active"}`}>
                 <div className="sidenav-menu">
-                    <div className="logo">
+                    {/* <div className="logo">
                         <Link to={`url`.replace(/([^:])(\/\/+)/g, "$1/")}>Miro</Link>
-                    </div>
+                    </div> */}
                     <button className="button" onClick={(e) => handleClick(e)}></button>
                     <ul className="sidenav-nav">
                         {links.map((item, index) => (
@@ -135,7 +133,6 @@ function Header() {
                 </div>
                 <span className="sidenav-close" />
             </div>
-            <DemoOptions />
         </>
     );
 }
