@@ -24,8 +24,8 @@ function About() {
                                         <span>Hello, I am Savannah Kolb.</span>
                                     </h3>
                                     <div className="divider divider-1"></div>
-                                    <p>I'm a North Carolina based Software Engineer. Currently, I am part of DSD Partners' new venture, building inventory managment software. Being that DSD Partners is a relatively small company going through a period of rapid growth, I have been able to dip my toes in a multitide of expierences when it comes to the web development field. My love for creating beautiful and performant products with delightful user experiences has led my career calling to be focused on the Front End. </p>
-                                    <p>In my freetime, I use my previous teaching skills to help future developers by tutoring. I have had the priveledge to grow my skills, and stay current, while helping students grow their knowledge.</p>
+                                    <p>I'm a North Carolina based Software Engineer. Currently, I am part of DSD Partners' new venture, building inventory management software. Being that DSD Partners is a relatively small company going through a period of rapid growth, I have been able to dip my toes in a multitude of experiences when it comes to the web development field. My love for creating beautiful and performant products with delightful user experiences has led my career calling to be focused on the Front End. </p>
+                                    <p>In my freetime, I use my previous teaching skills to help future developers by tutoring. I have had the privilege to grow my skills, and stay current, while helping students grow their knowledge base.</p>
                                     <p>When I am not coding, you will find me with an iced coffee in hand, enjoying time in the sun with my husband, daughter, and two dogs.</p>
                                 </header>
                                 <Row className="pt-30">
