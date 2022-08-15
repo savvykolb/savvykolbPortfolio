@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useRouteMatch, NavLink } from "react-router-dom";
-import { FaTwitter, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const links = [
     {
@@ -77,18 +77,13 @@ function Header() {
                 <div className="header-follow">
                     <ul>
                         <li>
-                            <a href="/#">
-                                <i className="ti-twitter-alt"></i>
+                            <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/savvykolb/">
+                                <i className="ti-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="/#">
+                            <a target='_blank' rel="noopener noreferrer" href="https://github.com/snk923">
                                 <i className="ti-github"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/#">
-                                <i className="ti-vimeo-alt"></i>
                             </a>
                         </li>
                     </ul>
@@ -113,18 +108,13 @@ function Header() {
                     <div className="sidenav-links">
                         <ul>
                             <li>
-                                <a href="!#">
-                                    <FaTwitter className="icon" />
+                                <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/savvykolb/">
+                                    <FaLinkedin className="icon" />
                                 </a>
                             </li>
                             <li>
-                                <a href="!#">
+                                <a target='_blank' rel="noopener noreferrer" href="https://github.com/snk923">
                                     <FaGithub className="icon" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="!#">
-                                    <FaInstagram className="icon" />
                                 </a>
                             </li>
                         </ul>
