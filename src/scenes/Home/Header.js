@@ -15,18 +15,18 @@ const links = [
         title: "Resume",
         path: "/resume",
     },
-    {
-        title: "Service",
-        path: "/service",
-    },
+    // {
+    //     title: "Service",
+    //     path: "/service",
+    // },
     {
         title: "Portfolio",
         path: "/portfolio",
     },
-    {
-        title: "Blog",
-        path: "/blog",
-    },
+    // {
+    //     title: "Blog",
+    //     path: "/blog",
+    // },
     {
         title: "Testimonial",
         path: "/testimonial",
