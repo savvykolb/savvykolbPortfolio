@@ -59,7 +59,7 @@ function Home() {
     let { path } = useRouteMatch();
 
     useEffect(() => {
-        document.documentElement.className = "home-1 skin-1";
+        document.documentElement.className = "home skin-1";
         return () => {
             document.documentElement.className = "";
         };
@@ -67,7 +67,7 @@ function Home() {
 
     return (
         <div>
-            <Helmet title="Home 1" />
+            <Helmet title="Home" />
             <Header />
             <Switch>
                 <Route path={path} exact>
