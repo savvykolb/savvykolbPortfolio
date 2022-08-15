@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Hidden, Row, Col } from "react-grid-system";
+import { FaAngular, FaBootstrap, FaCss3, FaGithub, FaGitlab, FaHtml5, FaJsSquare, FaNodeJs, FaNpm, FaReact } from "react-icons/fa";
+import { SiTypescript, SiMysql, SiMongodb, SiMaterialUi } from "react-icons/si";
 
 function About() {
     return (
@@ -29,68 +31,39 @@ function About() {
                                     <p>When I am not coding, you will find me with an iced coffee in hand, enjoying time in the sun with my husband, daughter, and two dogs.</p>
                                 </header>
                                 <Row className="pt-30">
-                                    <Col xs={12} sm={12} md={6}>
+                                    <Col lg={7}>
                                         <div className="el-card-icon">
                                             <div className="el-icon">
                                                 <span className="el-icon-icon ti-ruler-pencil"></span>
                                             </div>
                                             <div className="content">
-                                                <h5>Web design</h5>
-                                                <p>Lorem ipsum dolor sit amet Consectetur adipisicing elit.</p>
+                                                <h5>Programming Languages & Tools</h5>
+                                                <h4>
+                                                    <FaReact className="icon" />
+                                                    <FaAngular className="icon" />
+                                                    <FaJsSquare className="icon" />
+                                                    <SiTypescript className="icon" />
+                                                    <FaHtml5 className="icon" />
+                                                    <FaCss3 className="icon" />
+                                                    <FaNodeJs className="icon" />
+                                                    <FaNpm className="icon" />
+                                                    <SiMysql className="icon" />
+                                                    <SiMongodb className="icon" />
+                                                    <FaBootstrap className="icon" />
+                                                    <SiMaterialUi className="icon" />
+                                                    <FaGithub className="icon" />
+                                                    <FaGitlab className="icon" />
+                                                </h4>
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col xs={12} sm={12} md={6}>
-                                        <div className="el-card-icon">
-                                            <div className="el-icon">
-                                                <span className="el-icon-icon ti-image"></span>
-                                            </div>
-                                            <div className="content">
-                                                <h5>Graphic Design</h5>
-                                                <p>Lorem ipsum dolor sit amet Consectetur adipisicing elit.</p>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col xs={12} sm={12} md={6}>
-                                        <div className="el-card-icon">
-                                            <div className="el-icon">
-                                                <span className="el-icon-icon ti-brush-alt"></span>
-                                            </div>
-                                            <div className="content">
-                                                <h5>Development</h5>
-                                                <p>Lorem ipsum dolor sit amet Consectetur adipisicing elit.</p>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col xs={12} sm={12} md={6}>
-                                        <div className="el-card-icon">
-                                            <div className="el-icon">
-                                                <span className="el-icon-icon ti-ruler-pencil"></span>
-                                            </div>
-                                            <div className="content">
-                                                <h5>Mobile Apps</h5>
-                                                <p>Lorem ipsum dolor sit amet Consectetur adipisicing elit.</p>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col xs={12} sm={12} md={6}>
+                                    <Col lg={7}>
                                         <div className="el-card-icon">
                                             <div className="el-icon">
                                                 <span className="el-icon-icon ti-ruler-pencil"></span>
                                             </div>
                                             <div className="content">
                                                 <h5>UI/UX Designer</h5>
-                                                <p>Lorem ipsum dolor sit amet Consectetur adipisicing elit.</p>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col xs={12} sm={12} md={6}>
-                                        <div className="el-card-icon">
-                                            <div className="el-icon">
-                                                <span className="el-icon-icon ti-mobile"></span>
-                                            </div>
-                                            <div className="content">
-                                                <h5>Marketing Online</h5>
                                                 <p>Lorem ipsum dolor sit amet Consectetur adipisicing elit.</p>
                                             </div>
                                         </div>

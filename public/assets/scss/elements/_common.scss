@@ -552,6 +552,12 @@
     }
 }
 
+.icon {
+    padding: 5px;
+    font-size: 35px;
+}
+
+
 /*------------------------------------
     Element: Card Icon
 ------------------------------------*/
@@ -567,7 +573,7 @@
     }
     h5 {
         color: $base-1;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 700;
         margin-bottom: 10px;
     }
