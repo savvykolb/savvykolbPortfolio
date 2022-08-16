@@ -26,18 +26,18 @@ function About() {
                                         <span>Hello, I am Savannah Kolb.</span>
                                     </h3>
                                     <div className="divider divider-1"></div>
-                                    <p>I'm a North Carolina based Software Engineer. Currently, I am part of DSD Partners' new venture, building inventory management software. Being that DSD Partners is a relatively small company going through a period of rapid growth, I have been able to dip my toes in a multitude of experiences when it comes to the web development field. My love for creating beautiful and performant products with delightful user experiences has led my career calling to be focused on the Front End. </p>
-                                    <p>In my freetime, I use my previous teaching skills to help future developers by tutoring. I have had the privilege to grow my skills, and stay current, while helping students grow their knowledge base.</p>
+                                    <p>I'm a North Carolina based Software Engineer. Currently, I am part of DSD Partners' new venture, building inventory management software. Being that DSD Partners is a relatively small company going through a period of rapid growth, I have been able to dip my toes in a multitude of experiences when it comes to the web development field. I have been able to offer an adaptable and vision-driven approach to decision making, strategic planning, and tactical implementation for our DSD team. Though my technical training is Full Stack, my love for creating beautiful and performant products with delightful user experiences has led my primary focus and calling to be Front End. </p>
+                                    <p>In my freetime, I use my previous teaching skills to help future developers by tutoring. I have had the privilege to grow my skills, and stay current, while helping and supporting students grow their knowledge base.</p>
                                     <p>When I am not coding, you will find me with an iced coffee in hand, enjoying time in the sun with my husband, daughter, and two dogs.</p>
                                 </header>
                                 <Row className="pt-30">
-                                    <Col lg={7}>
+                                    <Col>
                                         <div className="el-card-icon">
                                             <div className="el-icon">
                                                 <span className="el-icon-icon ti-ruler-pencil"></span>
                                             </div>
                                             <div className="content">
-                                                <h5>Programming Languages & Tools</h5>
+                                                <h5>Technical Skills</h5>
                                                 <h4>
                                                     <FaReact className="icon" />
                                                     <FaAngular className="icon" />
@@ -57,7 +57,7 @@ function About() {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={7}>
+                                    {/* <Col lg={7}>
                                         <div className="el-card-icon">
                                             <div className="el-icon">
                                                 <span className="el-icon-icon ti-ruler-pencil"></span>
@@ -67,7 +67,7 @@ function About() {
                                                 <p>Lorem ipsum dolor sit amet Consectetur adipisicing elit.</p>
                                             </div>
                                         </div>
-                                    </Col>
+                                    </Col> */}
                                 </Row>
                             </div>
                         </Col>
