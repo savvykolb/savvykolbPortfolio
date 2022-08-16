@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useRouteMatch, NavLink } from "react-router-dom";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { resume } from "./skolb_Resume_08-2022.pdf"
+import resume from "./skolb_Resume_08-2022.pdf"
 
 const links = [
     {
