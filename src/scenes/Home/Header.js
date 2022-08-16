@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useRouteMatch, NavLink } from "react-router-dom";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { resume } from "./skolb_Resume_08-2022.pdf"
 
 const links = [
     {
@@ -84,6 +85,11 @@ function Header() {
                         <li>
                             <a target='_blank' rel="noopener noreferrer" href="https://github.com/snk923">
                                 <i className="ti-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a target='_blank' rel="noopener noreferrer" href={resume} download="skolb_Resume_08-2022.pdf">
+                                <i className="ti-file"></i>
                             </a>
                         </li>
                     </ul>
