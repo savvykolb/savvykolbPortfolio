@@ -6,49 +6,31 @@ import Headline from "../../components/common/Headline";
 
 const testimonial1 = [
     {
-        name: "Rabie Maxwell",
-        type: "Clients",
-        post: "My Customer",
-        avatar: "/assets/images/people/1.jpg",
-        content: "You've saved our business! I can't say enough about you. We were treated like royalty. We can't understand how we've been living without you.",
+        name: "Sandra Cyrus",
+        type: "Client",
+        post: "MSR Owner",
+        content: "Savannah was amazing! She took the needs I had and transformed them into a great website that my customers can easily access and navigate. She has been so willing to make updates and feedback to adjust things as needed. I was so impressed by her efficiency and getting this site up and running. I would recommend her work to anyone! Thank you!",
     },
     {
-        name: "Sara Wander",
-        type: "Clients",
-        post: "My Customer",
-        avatar: "/assets/images/people/2.jpg",
-        content: "Dude, your stuff is the bomb! I love your system. It's all good. I was treated like royalty. Keep up the excellent work. I will definitely be ordering again!",
-    },
-    {
-        name: "Emy Jacman",
-        type: "Clients",
-        post: "My Customer",
-        avatar: "/assets/images/people/3.jpg",
-        content: "You've saved our business! I can't say enough about you. We were treated like royalty. We can't understand how we've been living without you.",
+        name: "Jocelyn Remington",
+        type: "Peer",
+        post: "UI/UX",
+        content: "I have had the opportunity to work with Savannah many times throughout UNC's Full-Stack Bootcamp. She is one of my preferred partners in pair programming. She is knowledgeable, hard-working, diligent in problem-solving, and fun to work with.",
     },
 ];
 
 const testimonial2 = [
     {
-        name: "Kourosh Neyestani",
-        type: "Partners",
-        post: "Web Developer",
-        avatar: "/assets/images/people/4.jpg",
-        content: "Dude, your stuff is the bomb! I love your system. It's all good. I was treated like royalty. Keep up the excellent work. I will definitely be ordering again!",
+        name: "Santiago Palacios",
+        type: "Peer",
+        post: "Sales Engineer Manager",
+        content: "Is always pleasure to work with Savannah. We worked together in our first project for UNC coding bootcamp and her drive to achieve excellence is out of this world! During our time working and studying together, Savannah always showed an incredible amount of professionalism, collaboration and drive to finish the project in time. Her capability to stay on track and calm under pressure is one of the things that makes working with Savannah always a pleasure and honor. I know that Savannah will excel in any challenge that is thrown to her. I will say it now and again: It is always a pleasure to work with someone that gives 200% effort every time.",
     },
     {
-        name: "Rabie Maxwell",
-        type: "Partners",
-        post: "Web Designer",
-        avatar: "/assets/images/people/5.jpg",
-        content: "You've saved our business! I can't say enough about you. We were treated like royalty. We can't understand how we've been living without you.",
-    },
-    {
-        name: "James Maxwell",
-        type: "Partners",
-        post: "SEO Manager",
-        avatar: "/assets/images/people/6.jpg",
-        content: "Dude, your stuff is the bomb! Thank you so much for your help. You've saved our business! Just what I was looking for. It's exactly what I've been looking for.",
+        name: "Noah King",
+        type: "Instructor",
+        post: "Senior Software Engineer",
+        content: "Savannah was a student of mine at the UNC Coding Bootcamp. She is an amazing person to work with and teach. She has the proper mindset and drive to excel as a developer. She is able to understand new concepts quickly and helps others around her. I highly recommend her to anyone in need of a developer.",
     },
 ];
 
@@ -58,12 +40,13 @@ function Testimonial() {
         speed: 500,
         arrows: false,
         infinite: true,
+        autoplaySpeed: 2000,
     };
     return (
         <section className="section section-testimonial section-testimonial-1">
             <div className="display-spacing">
                 <Container className="container">
-                    <Headline label="testimonial" title="Customer’s Stories" divider_1={true} position="center" />
+                    <Headline label="testimonial" title="Recommendations Received" divider_1={true} position="center" />
                     <Row className="mb--15">
                         <Col lg={6} xl={6} className="mb-15">
                             <Slider className="el-slider" {...sliderSettings}>
@@ -74,7 +57,6 @@ function Testimonial() {
                                         </div>
                                         <p>{item.content}</p>
                                         <div className="author">
-                                            <img src={item.avatar} alt="Relevant textual alternative" />
                                             <h4>{item.name}</h4>
                                             <h5>{item.post}</h5>
                                         </div>
@@ -91,7 +73,6 @@ function Testimonial() {
                                         </div>
                                         <p>{item.content}</p>
                                         <div className="author">
-                                            <img src={item.avatar} alt="Relevant textual alternative" />
                                             <h4>{item.name}</h4>
                                             <h5>{item.post}</h5>
                                         </div>
@@ -100,11 +81,6 @@ function Testimonial() {
                             </Slider>
                         </Col>
                     </Row>
-                    <div className="div-center text-center lets-work">
-                        <button type="button" className="button button-md button-primary">
-                            let's work together
-                        </button>
-                    </div>
                 </Container>
             </div>
         </section>
