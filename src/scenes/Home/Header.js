@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useRouteMatch, NavLink } from "react-router-dom";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFile } from "react-icons/fa";
 import resume from "./skolb_Resume_08-2022.pdf"
 
 const links = [
@@ -93,7 +93,7 @@ function Header() {
                             </a>
                         </li>
                     </ul>
-                    <p>Follow Me</p>
+                    <p>More Info</p>
                 </div>
             </header>
             <div className={`app-sidenav ${displaySidenav && "active"}`}>
@@ -123,8 +123,13 @@ function Header() {
                                     <FaGithub className="icon" />
                                 </a>
                             </li>
+                            <li>
+                                <a target='_blank' rel="noopener noreferrer" href={resume} download="skolb_Resume_08-2022.pdf">
+                                    <FaFile className="icon" />
+                                </a>
+                            </li>
                         </ul>
-                        <p>Follow Me</p>
+                        <p>More Info</p>
                     </div>
                 </div>
                 <span className="sidenav-close" />

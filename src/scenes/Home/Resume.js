@@ -7,14 +7,14 @@ const education = [
         subtitle: "University of North Carolina at Chapel Hill",
         description: "A rigorous curriculum that ensured proficiency in: HTML5, CSS3, JavaScript, jQuery, Express.js, React.js, Node.js, progressive web apps, agile methodology, computer science, database theory, MongoDB, MySQL, Git, and more.",
         date: "2021",
-        icon: "ti-mouse-alt",
+        icon: "ti-desktop",
     },
     {
         title: "Bachelor of Arts in Liberal Studies & Humanities",
         subtitle: "California State University, San Bernardino",
         description: "A multidisciplinary degree program designed for students whose needs or interests require a more broadly based liberal arts curriculum than is possible through existing disciplines. This program is useful for careers requiring a broad educational background and strong communication, computer, research, and critical thinking skills.",
         date: "2013",
-        icon: "ti-marker",
+        icon: "ti-book",
     },
     {
         title: "NC Teacher License",
