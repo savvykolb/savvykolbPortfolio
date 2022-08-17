@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/savvykolbPortfolio/static/css/main.472d1f04.chunk.css",
-    "main.js": "/savvykolbPortfolio/static/js/main.1c5cc66c.chunk.js",
-    "main.js.map": "/savvykolbPortfolio/static/js/main.1c5cc66c.chunk.js.map",
-    "runtime-main.js": "/savvykolbPortfolio/static/js/runtime-main.f7b0f7e0.js",
-    "runtime-main.js.map": "/savvykolbPortfolio/static/js/runtime-main.f7b0f7e0.js.map",
-    "static/css/2.86f229e7.chunk.css": "/savvykolbPortfolio/static/css/2.86f229e7.chunk.css",
-    "static/js/2.5e711b06.chunk.js": "/savvykolbPortfolio/static/js/2.5e711b06.chunk.js",
-    "static/js/2.5e711b06.chunk.js.map": "/savvykolbPortfolio/static/js/2.5e711b06.chunk.js.map",
-    "index.html": "/savvykolbPortfolio/index.html",
-    "precache-manifest.ab6d174959b2bc1549970d89981e7c2d.js": "/savvykolbPortfolio/precache-manifest.ab6d174959b2bc1549970d89981e7c2d.js",
-    "service-worker.js": "/savvykolbPortfolio/service-worker.js",
-    "static/css/2.86f229e7.chunk.css.map": "/savvykolbPortfolio/static/css/2.86f229e7.chunk.css.map",
-    "static/css/main.472d1f04.chunk.css.map": "/savvykolbPortfolio/static/css/main.472d1f04.chunk.css.map",
-    "static/js/2.5e711b06.chunk.js.LICENSE.txt": "/savvykolbPortfolio/static/js/2.5e711b06.chunk.js.LICENSE.txt",
-    "static/media/skolb_Resume_08-2022.pdf": "/savvykolbPortfolio/static/media/skolb_Resume_08-2022.46401947.pdf",
-    "static/media/index.scss": "/savvykolbPortfolio/static/media/slick.f97e3bbf.svg"
+    "main.css": "/savvykolbPortfolio/public/static/css/main.472d1f04.chunk.css",
+    "main.js": "/savvykolbPortfolio/public/static/js/main.d14c2d9a.chunk.js",
+    "main.js.map": "/savvykolbPortfolio/public/static/js/main.d14c2d9a.chunk.js.map",
+    "runtime-main.js": "/savvykolbPortfolio/public/static/js/runtime-main.370ae6bf.js",
+    "runtime-main.js.map": "/savvykolbPortfolio/public/static/js/runtime-main.370ae6bf.js.map",
+    "static/css/2.3e295c32.chunk.css": "/savvykolbPortfolio/public/static/css/2.3e295c32.chunk.css",
+    "static/js/2.5e711b06.chunk.js": "/savvykolbPortfolio/public/static/js/2.5e711b06.chunk.js",
+    "static/js/2.5e711b06.chunk.js.map": "/savvykolbPortfolio/public/static/js/2.5e711b06.chunk.js.map",
+    "index.html": "/savvykolbPortfolio/public/index.html",
+    "precache-manifest.a6e65e69ef7a0c401c4ac02b73ea4cbf.js": "/savvykolbPortfolio/public/precache-manifest.a6e65e69ef7a0c401c4ac02b73ea4cbf.js",
+    "service-worker.js": "/savvykolbPortfolio/public/service-worker.js",
+    "static/css/2.3e295c32.chunk.css.map": "/savvykolbPortfolio/public/static/css/2.3e295c32.chunk.css.map",
+    "static/css/main.472d1f04.chunk.css.map": "/savvykolbPortfolio/public/static/css/main.472d1f04.chunk.css.map",
+    "static/js/2.5e711b06.chunk.js.LICENSE.txt": "/savvykolbPortfolio/public/static/js/2.5e711b06.chunk.js.LICENSE.txt",
+    "static/media/skolb_Resume_08-2022.pdf": "/savvykolbPortfolio/public/static/media/skolb_Resume_08-2022.46401947.pdf",
+    "static/media/index.scss": "/savvykolbPortfolio/public/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f7b0f7e0.js",
-    "static/css/2.86f229e7.chunk.css",
+    "static/js/runtime-main.370ae6bf.js",
+    "static/css/2.3e295c32.chunk.css",
     "static/js/2.5e711b06.chunk.js",
     "static/css/main.472d1f04.chunk.css",
-    "static/js/main.1c5cc66c.chunk.js"
+    "static/js/main.d14c2d9a.chunk.js"
   ]
 }
