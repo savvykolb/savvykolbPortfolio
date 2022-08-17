@@ -1,95 +1,96 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-grid-system";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Carousel, { Modal, ModalGateway } from "react-images";
 
 // Components
 import Headline from "../../components/common/Headline";
 
+
 const portfolio = [
     {
-        name: "All Worls",
+        name: "All Work",
         items: [
             {
                 id: 0,
-                title: "Crearive Design",
-                link: "/portfolio-details",
-                subtitle: "Web Design",
-                src: "/assets/images/portfolio/1-1.jpg",
-                thumbnail: "/assets/images/portfolio/1-1.jpg",
+                title: "Mountain Springs Ranch",
+                link: "https://www.basenjidog.net",
+                github: "https://github.com/snk923/mountain-springs-ranch",
+                subtitle: "React / Node.js / JavaScript / CSS",
+                src: "/assets/images/portfolio/MSR.jpg",
+                thumbnail: "/assets/images/portfolio/MSR.jpg",
             },
             {
                 id: 1,
                 title: "Crearive Design",
                 link: "/portfolio-details",
                 subtitle: "Web Design",
-                src: "/assets/images/portfolio/1-2.jpg",
-                thumbnail: "/assets/images/portfolio/1-2.jpg",
+                src: "/assets/images/portfolio/ZEAL.jpg",
+                thumbnail: "/assets/images/portfolio/ZEAL.jpg",
             },
             {
                 id: 2,
                 title: "Crearive Design",
                 link: "/portfolio-details",
                 subtitle: "Web Design",
-                src: "/assets/images/portfolio/1-3.jpg",
-                thumbnail: "/assets/images/portfolio/1-3.jpg",
+                src: "/assets/images/portfolio/JetAway.jpg",
+                thumbnail: "/assets/images/portfolio/JetAway.jpg",
             },
             {
                 id: 3,
                 title: "Crearive Design",
                 subtitle: "Web Design",
                 link: "/portfolio-details",
-                src: "/assets/images/portfolio/1-4.jpg",
-                thumbnail: "/assets/images/portfolio/1-4.jpg",
+                src: "/assets/images/portfolio/weather.jpg",
+                thumbnail: "/assets/images/portfolio/weather.jpg",
             },
             {
                 id: 4,
                 title: "Crearive Design",
                 subtitle: "Mobile Apps",
                 link: "/portfolio-details",
-                src: "/assets/images/portfolio/1-5.jpg",
-                thumbnail: "/assets/images/portfolio/1-5.jpg",
+                src: "/assets/images/portfolio/Notes.jpg",
+                thumbnail: "/assets/images/portfolio/Notes.jpg",
             },
             {
                 id: 5,
                 title: "Crearive Design",
                 subtitle: "Mobile Apps",
                 link: "/portfolio-details",
-                src: "/assets/images/portfolio/1-6.jpg",
-                thumbnail: "/assets/images/portfolio/1-6.jpg",
+                src: "/assets/images/portfolio/planner.jpg",
+                thumbnail: "/assets/images/portfolio/planner.jpg",
             },
             {
                 id: 6,
                 title: "Crearive Design",
                 subtitle: "Mobile Apps",
                 link: "/portfolio-details",
-                src: "/assets/images/portfolio/1-7.jpg",
-                thumbnail: "/assets/images/portfolio/1-7.jpg",
+                src: "/assets/images/portfolio/quiz.jpg",
+                thumbnail: "/assets/images/portfolio/quiz.jpg",
             },
-            {
-                id: 7,
-                title: "Crearive Design",
-                subtitle: "Branding",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/1-8.jpg",
-                thumbnail: "/assets/images/portfolio/1-8.jpg",
-            },
-            {
-                id: 8,
-                title: "Crearive Design",
-                subtitle: "Branding",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/1-9.jpg",
-                thumbnail: "/assets/images/portfolio/1-9.jpg",
-            },
-            {
-                id: 9,
-                title: "Crearive Design",
-                subtitle: "Branding",
-                link: "/portfolio-details",
-                src: "/assets/images/portfolio/1-10.jpg",
-                thumbnail: "/assets/images/portfolio/1-10.jpg",
-            },
+            // {
+            //     id: 7,
+            //     title: "Crearive Design",
+            //     subtitle: "Branding",
+            //     link: "/portfolio-details",
+            //     src: "/assets/images/portfolio/1-8.jpg",
+            //     thumbnail: "/assets/images/portfolio/1-8.jpg",
+            // },
+            // {
+            //     id: 8,
+            //     title: "Crearive Design",
+            //     subtitle: "Branding",
+            //     link: "/portfolio-details",
+            //     src: "/assets/images/portfolio/1-9.jpg",
+            //     thumbnail: "/assets/images/portfolio/1-9.jpg",
+            // },
+            // {
+            //     id: 9,
+            //     title: "Crearive Design",
+            //     subtitle: "Branding",
+            //     link: "/portfolio-details",
+            //     src: "/assets/images/portfolio/1-10.jpg",
+            //     thumbnail: "/assets/images/portfolio/1-10.jpg",
+            // },
         ],
     },
     {
@@ -189,47 +190,16 @@ const portfolio = [
     },
 ];
 
-const images = [
-    {
-        src: "/assets/images/portfolio/1-1.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/1-2.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/1-3.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/1-4.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/1-5.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/1-6.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/1-7.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/1-8.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/1-9.jpg",
-    },
-    {
-        src: "/assets/images/portfolio/1-10.jpg",
-    },
-];
-
 function Portfolio() {
-    const [lightboxIsOpen, setLightboxIsOpen] = useState(false);
-    const [selectedIndex, setSelectedIndex] = useState(0);
+    // const [lightboxIsOpen, setLightboxIsOpen] = useState(false);
+    const [setSelectedIndex] = useState(0);
 
-    const toggleLightbox = (index) => {
-        setSelectedIndex(index);
-        setLightboxIsOpen(!lightboxIsOpen);
-    };
+    // const toggleLightbox = (index) => {
+    //     setSelectedIndex(index);
+    //     setLightboxIsOpen(!lightboxIsOpen);
+    // };
+
+
 
     return (
         <section className="section section-portfolio section-portfolio-1">
@@ -246,13 +216,18 @@ function Portfolio() {
                             <TabPanel key={categoryIndex}>
                                 <Row className="row-center mb--30">
                                     {category.items.map((item, index) => (
-                                        <Col key={index} xs={6} sm={6} md={6} lg={3} xl={3} onClick={() => toggleLightbox(item.id)}>
+                                        <Col key={index} xs={6} sm={6} md={6} lg={3} xl={3}>
+                                            {console.log(item.github, " & ", item.link)}
                                             <div className="portfolio-item">
                                                 <div className="portfolio-card">
                                                     <div className="image overlay-image" style={{ backgroundImage: `url(${item.src})` }} />
                                                     <div className="content">
                                                         <button className="button button-circle button-icon button-circle-md button-primary">
-                                                            <span className="el-icon-icon ti-fullscreen"></span>
+                                                            <a target='_blank' rel="noopener noreferrer" href={item.link}><span className="el-icon-icon ti-link"></span></a>
+                                                        </button>
+                                                        <button className="button button-circle button-icon button-circle-md button-primary">
+                                                            <a target='_blank' rel="noopener noreferrer" href={item.github}><span className="el-icon-icon ti-github"></span></a>
+
                                                         </button>
                                                         <span>{item.title}</span>
                                                         <h3>{item.subtitle}</h3>
@@ -266,13 +241,13 @@ function Portfolio() {
                         ))}
                     </Tabs>
                 </Container>
-                <ModalGateway>
+                {/* <ModalGateway>
                     {lightboxIsOpen ? (
                         <Modal onClose={toggleLightbox}>
                             <Carousel currentIndex={selectedIndex} views={images} />
                         </Modal>
                     ) : null}
-                </ModalGateway>
+                </ModalGateway> */}
             </div>
         </section>
     );
