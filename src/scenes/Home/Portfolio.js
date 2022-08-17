@@ -22,7 +22,7 @@ const portfolio = [
             {
                 id: 1,
                 title: "ZEAL",
-                link: "https://jetaway1.herokuapp.com/",
+                link: "https://zeal3.herokuapp.com/",
                 github: "https://github.com/snk923/ZEAL",
                 subtitle: "React / Node.js / MongoDB / GraphQL",
                 src: "/assets/images/portfolio/ZEAL.jpg",
