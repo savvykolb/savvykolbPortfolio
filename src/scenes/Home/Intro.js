@@ -72,10 +72,10 @@ function Intro() {
                             <br />
                             Based in North Carolina
                         </h1>
-                        <button className="button button-lg button-primary">
+                        {/* <button className="button button-lg button-primary">
                             <span className="wave"></span>
                             <span className="text">My Portfolio</span>
-                        </button>
+                        </button> */}
                         {/* <button className="button button-lg">
                             <span className="text">Read More</span>
                         </button> */}
