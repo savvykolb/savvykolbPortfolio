@@ -12,7 +12,7 @@ function About() {
                         <Hidden xs sm md>
                             <Col lg={5}>
                                 <div className="about-image">
-                                    <div className="image overlay-image" style={{ backgroundImage: `url(https://snk923.github.io/savvykolbPortfolio/#/home/intro/assets/images/about/aboutMe.png)` }}></div>
+                                    <div className="image overlay-image" style={{ backgroundImage: `url(https://snk923.github.io/savvykolbPortfolio/assets/images/about/aboutMe.png)` }}></div>
                                 </div>
                             </Col>
                         </Hidden>
