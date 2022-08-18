@@ -1,7 +1,7 @@
 {
   "name": "savvykolb-portfolio",
   "version": "0.1.0",
-  "homepage": "https://snk923.github.io/savvykolbPortfolio/#/home/intro",
+  "homepage": "https://snk923.github.io/savvykolbPortfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
