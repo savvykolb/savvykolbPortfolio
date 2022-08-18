@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-grid-system";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-
+import { FaGithub, FaLink } from "react-icons/fa";
 // Components
 import Headline from "../../components/common/Headline";
 
@@ -197,10 +197,10 @@ function Portfolio() {
                                                     <div className="image overlay-image" style={{ backgroundImage: `url(https://www.savvykolb.com${item.src})` }} />
                                                     <div className="content">
                                                         <button className="button button-circle button-icon button-circle-md button-primary">
-                                                            <a target='_blank' rel="noopener noreferrer" href={item.link}><span className="el-icon-icon ti-link"></span></a>
+                                                            <a target='_blank' rel="noopener noreferrer" href={item.link}><FaLink className="portfolio-icon" /></a>
                                                         </button>
                                                         <button className="button button-circle button-icon button-circle-md button-primary">
-                                                            <a target='_blank' rel="noopener noreferrer" href={item.github}><span className="el-icon-icon ti-github"></span></a>
+                                                            <a target='_blank' rel="noopener noreferrer" href={item.github}><FaGithub className="portfolio-icon" /></a>
 
                                                         </button>
                                                         <span>{item.title}</span>
