@@ -194,7 +194,7 @@ function Portfolio() {
                                             {console.log(item.github, " & ", item.link)}
                                             <div className="portfolio-item">
                                                 <div className="portfolio-card">
-                                                    <div className="image overlay-image" style={{ backgroundImage: `url(${item.src})` }} />
+                                                    <div className="image overlay-image" style={{ backgroundImage: `url(https://snk923.github.io/savvykolbPortfolio/#/home/intro${item.src})` }} />
                                                     <div className="content">
                                                         <button className="button button-circle button-icon button-circle-md button-primary">
                                                             <a target='_blank' rel="noopener noreferrer" href={item.link}><span className="el-icon-icon ti-link"></span></a>
