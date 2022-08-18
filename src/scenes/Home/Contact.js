@@ -13,7 +13,7 @@ function Contact() {
                         <Hidden xs sm md>
                             <Col lg={5}>
                                 <div className="contact-image">
-                                    <div className="image overlay-image" style={{ backgroundImage: `url(https://snk923.github.io/savvykolbPortfolio/assets/images/contact/contactMe.png)` }}></div>
+                                    <div className="image overlay-image" style={{ backgroundImage: `url(https://www.savvykolb.com/assets/images/contact/contactMe.png)` }}></div>
                                 </div>
                             </Col>
                         </Hidden>

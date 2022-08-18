@@ -5,7 +5,7 @@ import { Container } from "react-grid-system";
 
 function Intro() {
     return (
-        <section className="section section-hero section-hero-1 overlay-image" style={{ backgroundImage: `url(https://snk923.github.io/savvykolbPortfolio/assets/images/hero/me-whitebg.png)` }}>
+        <section className="section section-hero section-hero-1 overlay-image" style={{ backgroundImage: `url(https://www.savvykolb.com/assets/images/hero/me-whitebg.png)` }}>
             <Particles width='100vw' height="85vh"
                 params={{
                     particles: {
