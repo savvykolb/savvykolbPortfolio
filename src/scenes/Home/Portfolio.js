@@ -196,10 +196,10 @@ function Portfolio() {
                                                 <div className="portfolio-card">
                                                     <div className="image overlay-image" style={{ backgroundImage: `url(https://www.savvykolb.com${item.src})` }} />
                                                     <div className="content">
-                                                        <button className="button button-circle button-icon button-circle-md button-primary">
+                                                        <button>
                                                             <a target='_blank' rel="noopener noreferrer" href={item.link}><FaLink className="portfolio-icon" /></a>
                                                         </button>
-                                                        <button className="button button-circle button-icon button-circle-md button-primary">
+                                                        <button>
                                                             <a target='_blank' rel="noopener noreferrer" href={item.github}><FaGithub className="portfolio-icon" /></a>
 
                                                         </button>
