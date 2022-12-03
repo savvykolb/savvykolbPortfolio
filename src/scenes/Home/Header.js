@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { useRouteMatch, NavLink } from "react-router-dom";
 import { FaGithub, FaLinkedin, FaFile } from "react-icons/fa";
-import resume from "./skolb_Resume_08-2022.pdf"
+import resume from "./S. Kolb Resume .pdf"
+//import resume from "./skolb_resume.pdf"
 
 const links = [
     {
@@ -83,12 +84,12 @@ function Header() {
                             </a>
                         </li>
                         <li>
-                            <a target='_blank' rel="noopener noreferrer" href="https://github.com/snk923">
+                            <a target='_blank' rel="noopener noreferrer" href="https://github.com/savvykolb">
                                 <FaGithub className="side-icon" />
                             </a>
                         </li>
                         <li>
-                            <a target='_blank' rel="noopener noreferrer" href={resume} download="skolb_Resume_08-2022.pdf">
+                            <a target='_blank' rel="noopener noreferrer" href={resume} download="S. Kolb Resume .pdf">
                                 <FaFile className="side-icon" />
                             </a>
                         </li>
@@ -119,12 +120,12 @@ function Header() {
                                 </a>
                             </li>
                             <li>
-                                <a target='_blank' rel="noopener noreferrer" href="https://github.com/snk923">
+                                <a target='_blank' rel="noopener noreferrer" href="https://github.com/savvykolb">
                                     <FaGithub className="icon" />
                                 </a>
                             </li>
                             <li>
-                                <a target='_blank' rel="noopener noreferrer" href={resume} download="skolb_Resume_08-2022.pdf">
+                                <a target='_blank' rel="noopener noreferrer" href={resume} download="S. Kolb Resume .pdf">
                                     <FaFile className="icon" />
                                 </a>
                             </li>

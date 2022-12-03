@@ -40,7 +40,7 @@ function Contact() {
                                                     <a target='_blank' rel="noopener noreferrer" href="tel:336-707-0007" class="phoneNumber"><BsPhone /></a>
                                                     <a target='_blank' rel="noopener noreferrer" href="mailto:savannahnkolb@gmail.com" class="email"><BsFillEnvelopeOpenFill /></a>
                                                     <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/savvykolb/" class="linkedin"><FaLinkedin /></a>
-                                                    <a target='_blank' rel="noopener noreferrer" href="https://github.com/snk923" class="gitHub"><FaGithub /></a>
+                                                    <a target='_blank' rel="noopener noreferrer" href="https://github.com/savvykolb" class="gitHub"><FaGithub /></a>
                                                     <br></br>
                                                     <br></br>
                                                     <br></br>

@@ -26,11 +26,18 @@ const education = [
 ];
 const experience = [
     {
-        title: "Front End Engineer",
-        subtitle: "DSD Partners | Richmond, VA",
-        description: "•  Using Angular 12, Angular Material, and AWS to create new and update current UI/UX for current clients  •  Works directly with clients on developing new applications for their specific needs  •  Collaborate with the dev team on different permutations to find the best solution possible  •  Works in an agile environment  •  Personally responsible for over a third of front end code base  •  Responsible for new application launching nationwide  •  Partnered with UX Designer to help develop new style guides  •  Assists senior mobile developer 10 hours a week (Kotlin, Android)  •",
-        date: "2021 - Present",
-        icon: "ti-pencil-alt",
+        title: "Full Stack Developer",
+        subtitle: "Pilgrim Bible | Greensboro, NC",
+        description: "•  Helped set up the beginning stages of application development  •  Contributed to UX Design and reusable components and schemas  •  Pro bono team passion project utilizing agile methodogies and pair programming  • ",
+        date: "2022 - Present",
+        icon: "ti-mouse",
+    },
+    {
+        title: "QA Coordinator",
+        subtitle: "BloomTech | San Francisco, CA",
+        description: "•  Lead Subject Matter Expert in the development of new Web Development curriculum and lesson plans  •  Observed, coached, and collected data for over 50  web development, back-end development, and data science instructors to increase the quality of instruction for both content and instruction  • ",
+        date: "2022 - 2023",
+        icon: "ti-light-bulb",
     },
     {
         title: "Web Development Tutor",
@@ -38,6 +45,13 @@ const experience = [
         description: "•  Assist students with activities, homework, or projects they are struggling with  •  Research and answer all student questions  •  Help encourage and guide students to problem solve and write clean and efficient code  •  Provide empathy, support, and encouragement while engaging students  •",
         date: "2021 - Present",
         icon: "ti-heart",
+    },
+    {
+        title: "Front End Engineer",
+        subtitle: "DSD Partners | Richmond, VA",
+        description: "•  Using Angular 12, Angular Material, and AWS to create new and update current UI/UX for current clients  •  Works directly with clients on developing new applications for their specific needs  •  Collaborate with the dev team on different permutations to find the best solution possible  •  Works in an agile environment  •  Personally responsible for over a third of front end code base  •  Responsible for new application launching nationwide  •  Partnered with UX Designer to help develop new style guides  •  Assists senior mobile developer 10 hours a week (Kotlin, Android)  •",
+        date: "2021 - 2022",
+        icon: "ti-pencil-alt",
     },
     {
         title: "Mathematics Teacher",
