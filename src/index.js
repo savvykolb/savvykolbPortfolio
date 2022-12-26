@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import { HashRouter, Switch, Route, Redirect } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 // Stylesheet
 import "./index.scss";
@@ -22,11 +22,11 @@ const Root = () => {
 };
 
 ReactDOM.render(
-    <BrowserRouter>
+    <HashRouter>
         <div>
             <Route render={({ location }) => (location.state && location.state.is404 ? <Error404 /> : <Root />)} />
         </div>
-    </BrowserRouter>,
+    </HashRouter>,
     document.getElementById("root")
 );
 serviceWorker.unregister();
