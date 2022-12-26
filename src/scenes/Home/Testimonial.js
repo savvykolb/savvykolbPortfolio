@@ -13,10 +13,16 @@ const testimonial1 = [
         content: "Savannah was a student of mine at the UNC Coding Bootcamp. She is an amazing person to work with and teach. She has the proper mindset and drive to excel as a developer. She is able to understand new concepts quickly and helps others around her. I highly recommend her to anyone in need of a developer.",
     },
     {
-        name: "",//"Josh Knell",
-        type: "Executive Level Manager",
-        post: "- Director of Instructional Design at BloomTech",
-        content: "Savannah, you are an incredible mind and I really enjoyed our short time together. You put together some of the best early lesson plans we have had here. Your lesson plans and wisdom will persist on. Thank you for everything you did!",
+        name: "Josh Knell",
+        type: "Executive Management",
+        post: "Director of Instructional Design at BloomTech",
+        content: "Savannah, is an incredible mind and I really enjoyed our short time together. She put together some of the best early lesson plans we have had here at BloomTech. Her lesson plans and wisdom will persist on.",
+    },
+    {
+        name: "Mallory Milara ",
+        type: "Manager",
+        post: "Instructional Leader",
+        content: "Savannah and I worked closely together at BloomTech, where she served as a QA Coordinator, managing and supporting the QA process for over fifty instructors. Though I only had the privilege of working with Savannah a few short months, I can confidently say she is one of the most passionate, dedicated, and skilled instructional coaches I’ve had the opportunity to lead in my ten years of school leadership. Savannah is hardworking, devoted, data driven, and constantly going above and beyond to meet her teachers’ needs. While at BloomTech, Savannah managed the instructor QA process and ensured all fifty instructors received monthly evaluations. After each month, she worked to create individual support plans for struggling teachers, ensuring they had concrete next steps and support to improve. She has a keen eye for strong instruction and the ability to walk into any classroom and instantly pick up on what is going well and what needs to be improved. Savannah is a go-getter. When she saw that web orientation wasn’t successful, she took it upon herself to completely rewrite the curriculum, roll it out to instructors, and coach it to instructors to ensure it was being implemented as envisioned. This type of initiative, enthusiasm, and dedication is a culture add to any company. All this being said, I am blessed to have worked alongside Savannah- she truly made me a better leader.",
     },
     {
         name: "Sandra Cyrus",
@@ -46,10 +52,14 @@ const testimonial1 = [
 function Testimonial() {
     const sliderSettings = {
         dots: true,
-        speed: 500,
-        arrows: false,
         infinite: true,
-        autoplaySpeed: 2000,
+        arrows: false,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        swipeToSlide: true,
+        autoplay: true,
+        autoplaySpeed: 3000
     };
     return (
         <section className="section section-testimonial section-testimonial-1">

@@ -28,9 +28,9 @@ function About() {
                                     <div className="divider divider-1"></div>
                                     <p>I am a North Carolina based Software Engineer. I have had the opportunity to dip my toes in a multitude of experiences when it comes to the web development field. I have been able to offer an adaptable and vision-driven approach to decision making, strategic planning, and tactical implementation for any team I have been fortunate to work with. With previous experiences, I have stepped up to the challenge of meshing my passion for team work and my love for creating beautiful and performant products with delightful user experiences. In my free time, I use my previous education skills to help future developers by tutoring. I have had the privilege to grow my skills, and stay current, while helping and supporting the next generation of developers to grow their knowledge base. </p>
 
-                                    <p>Recently, I was informed that my position, along with many others, will be eliminated due to economic reasons. My final day with BloomTech will be January 31, 2023. Though I was so grateful for the team I worked with and all the skills gained, I am looking forward to the next great opportunity. </p>
+                                    {/* <p>Recently, I was informed that my position, along with many others, will be eliminated due to economic reasons. My final day with BloomTech will be January 31, 2023. Though I was so grateful for the team I worked with and all the skills gained, I am looking forward to the next great opportunity. </p> */}
 
-                                    <p>I would love the chance to chat about any and all new exciting opportunities! Please do not hesitate to reach out. </p>
+                                    <p>Let's connect and create something cool! </p>
                                 </header>
                                 <Row className="pt-30">
                                     <Col>
